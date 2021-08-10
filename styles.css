@@ -17,16 +17,20 @@ font-family: 'Quicksand', sans-serif; */
 }
 
 body {
-  background-color: #393E46;
+  background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+  /* background-color: #393E46; */
+
 }
 
 h1 {
   margin-top: 50px;
   font-family: 'Press Start 2P', cursive;
-  text-shadow: 7px  0 #232931;
+  text-shadow: 7px  0 #4ecca4;
   font-size: 8vw;
 
-  color: #4ecca4;
+  color: #232931;
 }
 
 .btn {
@@ -42,12 +46,13 @@ h1 {
 }
 p {
   font-size: 2rem;
-  color: #4ECCA3;
+  color: #393E46;
   font-family: 'Indie Flower', cursive;
+  font-weight: 500;
 }
 
 img {
-  width: 80%;
+  width: 60%;
 }
 
 footer {
